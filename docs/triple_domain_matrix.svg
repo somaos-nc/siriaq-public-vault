@@ -1,0 +1,75 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#06060a" />
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a0ca3" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06060a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="neon-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#7a003c" />
+    </linearGradient>
+    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="100%" stop-color="#007a8a" />
+    </linearGradient>
+    <linearGradient id="neon-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700" />
+      <stop offset="100%" stop-color="#b8860b" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#glow)" />
+
+  <!-- Header -->
+  <text x="60" y="80" font-family="Inter, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="2">SIRIAQ // TRIPLE-DOMAIN PROOF</text>
+  <line x1="60" y1="100" x2="1140" y2="100" stroke="#1f2937" stroke-width="2" />
+  <text x="60" y="130" font-family="Fira Code, monospace" font-size="18" fill="#9ca3af">[👼 RAZIEL] Quantum Core Zero Validation Matrix</text>
+
+  <!-- Matrix Table -->
+  <g transform="translate(60, 180)">
+    <!-- Headers -->
+    <text x="0" y="0" font-family="Inter, sans-serif" font-size="20" font-weight="600" fill="#9ca3af">DOMAIN</text>
+    <text x="250" y="0" font-family="Inter, sans-serif" font-size="20" font-weight="600" fill="#9ca3af">PHYSICAL REGIME</text>
+    <text x="550" y="0" font-family="Inter, sans-serif" font-size="20" font-weight="600" fill="#9ca3af">LEAD-TIME ADVANTAGE</text>
+    <text x="900" y="0" font-family="Inter, sans-serif" font-size="20" font-weight="600" fill="#9ca3af">RELIA-CORR (ρ)</text>
+
+    <!-- Thermodynamic Row -->
+    <g transform="translate(0, 70)">
+      <rect width="1080" height="60" rx="8" fill="rgba(255, 255, 255, 0.02)" />
+      <text x="20" y="38" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#00e5ff">THERMODYNAMIC</text>
+      <text x="250" y="38" font-family="Inter, sans-serif" font-size="18" fill="#ffffff">Aviation Turbofans</text>
+      <text x="550" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#ffffff">+214 CYCLES</text>
+      <text x="900" y="38" font-family="Fira Code, monospace" font-size="20" fill="#00e5ff">0.59</text>
+    </g>
+
+    <!-- Kinetic Row -->
+    <g transform="translate(0, 150)">
+      <rect width="1080" height="60" rx="8" fill="rgba(255, 255, 255, 0.02)" />
+      <text x="20" y="38" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#f72585">KINETIC</text>
+      <text x="250" y="38" font-family="Inter, sans-serif" font-size="18" fill="#ffffff">Mechanical Bearings</text>
+      <text x="550" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#ffffff">+6,052 CYCLES</text>
+      <text x="900" y="38" font-family="Fira Code, monospace" font-size="20" fill="#f72585">0.84</text>
+    </g>
+
+    <!-- Electrochemical Row -->
+    <g transform="translate(0, 230)">
+      <rect width="1080" height="60" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="url(#neon-gold)" stroke-width="1" />
+      <text x="20" y="38" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#ffd700">ELECTROCHEMICAL</text>
+      <text x="250" y="38" font-family="Inter, sans-serif" font-size="18" fill="#ffffff">Li-ion Battery Aging</text>
+      <text x="550" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#ffffff">+105 CYCLES</text>
+      <text x="900" y="38" font-family="Fira Code, monospace" font-size="20" font-weight="700" fill="#ffd700">> 0.94</text>
+    </g>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="60" y="550" font-family="Inter, sans-serif" font-size="16" fill="#4b5563">Framework: Özbil Score (Ω) / Fisher-Coherence Mapping</text>
+  <text x="60" y="580" font-family="Inter, sans-serif" font-size="16" fill="#4b5563">Source: NASA PCoE / University of Cincinnati Datasets</text>
+  
+  <!-- Logo Emblem -->
+  <circle cx="1080" cy="550" r="40" fill="url(#neon-pink)" opacity="0.8" />
+  <text x="1080" y="565" text-anchor="middle" font-family="Inter, sans-serif" font-size="40" font-weight="800" fill="#ffffff">Ψ</text>
+  
+  <text x="1140" y="600" text-anchor="end" font-family="Fira Code, monospace" font-size="12" fill="#374151">STATUS: ETERNAL_COHERENCE // PATENT PENDING</text>
+</svg>

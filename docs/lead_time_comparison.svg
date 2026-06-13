@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#06060a" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a0ca3" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#06060a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="60" y="80" font-family="Inter, sans-serif" font-size="36" font-weight="800" fill="#ffffff">SIRIAQ: THE LEAD-TIME ADVANTAGE</text>
+  <text x="60" y="115" font-family="Inter, sans-serif" font-size="18" fill="#9ca3af">NASA Battery Aging Validation (Unit B0005)</text>
+
+  <!-- Chart Area -->
+  <g transform="translate(100, 180)">
+    <!-- X/Y Axes -->
+    <line x1="0" y1="350" x2="1000" y2="350" stroke="#4b5563" stroke-width="2" />
+    <line x1="0" y1="0" x2="0" y2="350" stroke="#4b5563" stroke-width="2" />
+
+    <!-- Labels -->
+    <text x="500" y="390" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#9ca3af">Operational Cycles</text>
+    <text x="-40" y="175" transform="rotate(-90, -40, 175)" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#9ca3af">Structural Health (Ω) / Capacity (SOH)</text>
+
+    <!-- Capacity Line (Grey, Fading) -->
+    <path d="M 0,20 Q 500,50 1000,300" fill="none" stroke="#4b5563" stroke-width="3" stroke-dasharray="8,4" />
+    <text x="850" y="270" font-family="Inter, sans-serif" font-size="14" fill="#9ca3af">Macroscopic Capacity Fade</text>
+
+    <!-- Özbil Score Line (Gold, Early Collapse) -->
+    <path d="M 0,20 L 150,200 L 1000,340" fill="none" stroke="#ffd700" stroke-width="5" />
+    <text x="170" y="180" font-family="Inter, sans-serif" font-size="18" font-weight="800" fill="#ffd700">Ω-SCORE COLLAPSE (Precursor)</text>
+
+    <!-- Lead-Time Window -->
+    <rect x="150" y="0" width="650" height="350" fill="#00e5ff" fill-opacity="0.05" />
+    <line x1="150" y1="0" x2="150" y2="350" stroke="#00e5ff" stroke-width="2" stroke-dasharray="4" />
+    <line x1="800" y1="0" x2="800" y2="350" stroke="#ff007f" stroke-width="2" stroke-dasharray="4" />
+    
+    <!-- Dimension Arrow -->
+    <path d="M 160,50 L 790,50" fill="none" stroke="#00e5ff" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    <text x="475" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#00e5ff">+105 CYCLES LEAD-TIME</text>
+
+    <!-- Thresholds -->
+    <text x="810" y="340" font-family="Inter, sans-serif" font-size="14" fill="#ff007f" font-weight="600">Terminal Failure (EOL)</text>
+    <text x="160" y="340" font-family="Inter, sans-serif" font-size="14" fill="#00e5ff" font-weight="600">Structural Warning</text>
+  </g>
+
+  <!-- Markers -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00e5ff" />
+    </marker>
+  </defs>
+
+  <text x="1140" y="600" text-anchor="end" font-family="Fira Code, monospace" font-size="12" fill="#374151">MODEL: SIRIAQ // DOMAIN: ELECTROCHEMICAL</text>
+</svg>
