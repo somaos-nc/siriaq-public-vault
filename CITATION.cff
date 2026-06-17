@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or theoretical framework, please cite it as below."
+authors:
+  - family-names: "Özbil"
+    given-names: "Halil"
+    affiliation: "Independent Researcher"
+  - family-names: "Cohen"
+    given-names: "Noam"
+    affiliation: "Independent Researcher"
+title: "SIRIAQ Framework: Systemic Information-geometric Risk and Integrity Assessment Quantum-proxy"
+version: 1.2.0
+date-released: 2026-06-14
+url: "https://github.com/somaos-nc/Siriaq"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Özbil"
+      given-names: "Halil"
+    - family-names: "Cohen"
+      given-names: "Noam"
+  title: "AHDT-Ω: Adaptive Hamiltonian Digital Twin with Structural Coherence Monitoring"
+  journal: "IEEE Transactions on Industrial Informatics (Submitted)"
+  year: 2026
