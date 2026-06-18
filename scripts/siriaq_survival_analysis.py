@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from lifelines import CoxPHFitter
+from lifelines import CoxPHFitter, KaplanMeierFitter
 from lifelines.statistics import proportional_hazard_test
 
 def run_survival_analysis():
@@ -159,8 +161,10 @@ def run_survival_analysis():
     omega_row = cph2.summary.loc['Omega_BIO_True']
     hr = np.exp(omega_row['coef'])
     p_val = omega_row['p']
+    hr_lower = np.exp(omega_row['coef lower 95%'])
+    hr_upper = np.exp(omega_row['coef upper 95%'])
     
-    print(f"   \u03A9_BIO Hazard Ratio (HR):     {hr:.4f}")
+    print(f"   \u03A9_BIO Hazard Ratio (HR):     {hr:.4f} (95% CI: {hr_lower:.4f} - {hr_upper:.4f})")
     print(f"   \u03A9_BIO p-value:               {p_val:.2e}")
     
     if p_val < 0.05:
@@ -170,6 +174,38 @@ def run_survival_analysis():
         print("   -> NOT SIGNIFICANT")
         
     print(f"   C-index Improvement:         +{(c2_index - c1_index):.4f}")
+
+    print("\n4. PROPORTIONAL HAZARDS ASSUMPTION TESTING")
+    ph_test = proportional_hazard_test(cph2, df_combined, time_transform='rank')
+    print("   Schoenfeld Residuals Test Summary:")
+    print(ph_test.summary[['p', 'test_statistic']].to_string())
+    
+    p_val_omega_ph = ph_test.summary.loc['Omega_BIO_True', 'p'] if 'Omega_BIO_True' in ph_test.summary.index else 0
+    if p_val_omega_ph > 0.05:
+         print("   -> \u03A9_BIO PH ASSUMPTION SATISFIED (p > 0.05)")
+    else:
+         print("   -> \u03A9_BIO PH ASSUMPTION VIOLATED")
+
+    print("\n5. KAPLAN-MEIER STRATIFICATION")
+    kmf_high = KaplanMeierFitter()
+    kmf_low = KaplanMeierFitter()
+    
+    median_omega = surv_df['Omega_BIO_True'].median()
+    high_risk = surv_df[surv_df['Omega_BIO_True'] < median_omega] # Lower structural health = higher risk
+    low_risk = surv_df[surv_df['Omega_BIO_True'] >= median_omega]
+    
+    kmf_high.fit(high_risk['Duration'], event_observed=high_risk['Event'], label='High Risk (Low \u03A9)')
+    kmf_low.fit(low_risk['Duration'], event_observed=low_risk['Event'], label='Low Risk (High \u03A9)')
+    
+    plt.figure(figsize=(10, 6))
+    kmf_high.plot_survival_function(color='red')
+    kmf_low.plot_survival_function(color='blue')
+    plt.title('Kaplan-Meier Survival Curves by \u03A9_BIO Stratification')
+    plt.xlabel('Time (Months)')
+    plt.ylabel('Survival Probability')
+    plt.tight_layout()
+    plt.savefig('datasets/km_survival_curves.png')
+    print("   -> Kaplan-Meier curves generated and saved to datasets/km_survival_curves.png")
 
     # 4. Export Model Summaries for Report
     with open('datasets/cox_model_summary.txt', 'w') as f:
