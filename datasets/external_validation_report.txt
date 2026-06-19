@@ -1,0 +1,7 @@
+EXTERNAL VALIDATION REPORT
+==========================
+ADNI4 Training C-index: 0.9457
+AIBL Validation C-index: 0.9437
+OASIS-3 Validation C-index: 0.9358
+
+Frozen HR for Ω_BIO: 0.9171 (95% CI: 0.9138 - 0.9204)
