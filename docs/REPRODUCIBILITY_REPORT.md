@@ -102,6 +102,11 @@ python3 tests/test_processors.py
 # 3. Triple-Domain Lead-Time Validation (Battery Benchmark)
 python3 scripts/siriaq_battery_validation.py
 
-# 4. Master Integrity Handshake (All of the above)
+# 4. Multi-Omics Biological Proof (\Omega_ONCO)
+python3 scripts/tcga_gdc_ingestion.py
+python3 scripts/icgc_external_validation.py
+python3 scripts/final_falsification_tests.py
+
+# 5. Master Integrity Handshake (All of the above)
 ./scripts/validate_all.sh
 ```
