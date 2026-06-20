@@ -9,6 +9,12 @@ The objective of this vault is to enable the independent peer review and statist
 3. **Electrochemical Domain:** NASA Battery Aging (Li-ion)
 
 ## Scientific Documentation
+
+### Version 2: Universal Structure-Sensitive Biology (\Omega_BIO & \Omega_ONCO)
+- **[Methodology Supplement](docs/methodology_supplement.md):** The formal survival methodology, missing data handling, and \Omega_BIO ADNI4 cohort definitions.
+- **[Data Leakage & Falsification Audit](docs/Data_Leakage_Audit.md):** The definitive proof of parameter freeze, zero cohort overlap, and permutation control tests mathematically validating the \Omega_ONCO signal on TCGA/ICGC multi-omics.
+
+### Version 1 & Foundational Architecture
 - **[Theoretical Lineage](docs/SCIENTIFIC_FOUNDATION.md):** The evolutionary history of the framework from astrophysics to biological prognostics.
 - **[Whitepaper](docs/WHITEPAPER.md):** The fundamental theory of Geometric Entropy of Information and the Fisher-Coherence mapping.
 - **[AHDT-Ω Framework Overview](docs/AHDT_OMEGA_OVERVIEW.md):** Overview of the Adaptive Hamiltonian Digital Twin structure-sensitive framework.
