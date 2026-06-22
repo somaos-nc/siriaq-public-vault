@@ -3,10 +3,11 @@
 ## Overview
 This repository contains the scientific evidence, theoretical framework, and processed validation datasets for the **SIRIAQ (Özbil Score / Fisher-Coherence)** structural early-warning technology.
 
-The objective of this vault is to enable the independent peer review and statistical verification of our **Triple-Domain Proof**:
+The objective of this vault is to enable the independent peer review and statistical verification of our **Quad-Domain Proof**:
 1. **Thermodynamic Domain:** NASA C-MAPSS (Turbofan)
 2. **Kinetic Domain:** IMS Bearing (Vibration)
 3. **Electrochemical Domain:** NASA Battery Aging (Li-ion)
+4. **Biological Domain:** ADNI Alzheimer's Dataset (Neurodegeneration)
 
 ## Scientific Documentation
 
@@ -45,6 +46,7 @@ This script will:
 1.  **Verify Math Consistency:** Run the JavaScript suite covering Fisher Information geometry.
 2.  **Verify Thermodynamic Results:** Report the lead-time advantage for the C-MAPSS dataset.
 3.  **Verify Electrochemical Results:** Report the lead-time advantage for the NASA Battery dataset.
+4.  **Verify Biological Results:** Report the progression separation and C-index for the ADNI4 dataset.
 
 ## Citation
 If you use this software or theoretical framework, please refer to the `CITATION.cff` file in the repository root or cite the primary manuscript:
