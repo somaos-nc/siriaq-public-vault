@@ -1,5 +1,5 @@
 # Final Scientific Manuscript Audit
-**Project:** SIRIAQ (Structure-Sensitive Science) / Ω_BIO Clinical Utility
+**Project:** Thought (Structure-Sensitive Science) / Ω_BIO Clinical Utility
 **Status:** FROZEN FOR SUBMISSION
 
 ## 1. Reporting Standards (TRIPOD Compliance)
@@ -11,10 +11,10 @@ The validation framework strictly adheres to the **TRIPOD (Transparent Reporting
 - **Model Performance:** Discrimination (C-index, ROC-AUC) and clinical utility (NRI, IDI, DCA) are universally reported with 95% Bootstrap Confidence Intervals.
 
 ## 2. Reproducibility Verification
-The `siriaq-public-vault` repository acts as the absolute, transparent source of truth for peer review. An independent researcher possesses the complete capacity to reproduce the entire pipeline:
+The `thought-public-vault` repository acts as the absolute, transparent source of truth for peer review. An independent researcher possesses the complete capacity to reproduce the entire pipeline:
 - **Cohort Preprocessing:** The Python matrices contain the exact generation algorithms used to map the synthetic baseline structures.
 - **Ω_BIO Computation:** The core logic translates latent structural information loss directly into the continuous Özbil Score.
-- **Statistical Outputs & Figures:** Executing `siriaq_clinical_utility.py` deterministically recalculates the metrics and regenerates the Decision Curve Analysis and Kaplan-Meier plots.
+- **Statistical Outputs & Figures:** Executing `thought_clinical_utility.py` deterministically recalculates the metrics and regenerates the Decision Curve Analysis and Kaplan-Meier plots.
 
 ## 3. Scientific Positioning
 **Core Postulate:** $\Omega_{BIO}$ is **not** proposed as a replacement for existing clinical or biological biomarkers (e.g., p-tau, Aβ42/40). 

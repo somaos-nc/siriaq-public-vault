@@ -1,7 +1,7 @@
-# SIRIAQ Global External Validation Report
+# Thought Global External Validation Report
 
 ## Executive Summary
-This report summarizes the final statistical validation of the SIRIAQ $\Omega$ (Özbil Score) and Fisher-Coherence framework across multiple domains: Thermodynamic degradation via the **NASA C-MAPSS Turbofan Dataset** and Kinetic degradation via the **University of Cincinnati / NASA IMS Bearing Dataset**. 
+This report summarizes the final statistical validation of the Thought $\Omega$ (Özbil Score) and Fisher-Coherence framework across multiple domains: Thermodynamic degradation via the **NASA C-MAPSS Turbofan Dataset** and Kinetic degradation via the **University of Cincinnati / NASA IMS Bearing Dataset**. 
 
 The goal of this phase was to test if the framework acts as a **model-independent structural early-warning technology** capable of predicting system failure prior to traditional macroscopic sensor variance spikes, even across varying operational conditions, fault modes, and fundamental physical mechanisms.
 
@@ -75,7 +75,7 @@ Standard End-of-Life (EOL) defined as Capacity < 1.4 Ahr. $\Omega$ Warning thres
 
 ## Phase 5: Biological Domain Validation (ADNI Alzheimer's)
 
-The final frontier of the SIRIAQ cross-domain proof was the transition into the **Biological Domain**, specifically neurodegenerative progression monitoring using the **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** dataset. This tested if the Özbil Score could detect the collapse of structural coherence in human brain tissue.
+The final frontier of the Thought cross-domain proof was the transition into the **Biological Domain**, specifically neurodegenerative progression monitoring using the **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** dataset. This tested if the Özbil Score could detect the collapse of structural coherence in human brain tissue.
 
 ### Biological DASN Mapping
 Biological structural disruption is mapped from longitudinal MRI atrophy (`Hippocampus / ICV`) and toxic protein load (`TAU`, `ABETA`). The DASN layer handles the slow, multi-year temporal scale of human aging:
@@ -110,7 +110,7 @@ To prove that the structural geometric approach provides independent predictive 
 
 - **Model A (Standard Clinical Baseline):** Age, Education, APOE-$\varepsilon 4$ status, and baseline cognitive scores.
   - *Concordance Index (C-index): 0.7230*
-- **Model B (Combined SIRIAQ Model):** Standard Clinical Baseline + $\Omega_{\text{BIO}}$
+- **Model B (Combined Thought Model):** Standard Clinical Baseline + $\Omega_{\text{BIO}}$
   - *Concordance Index (C-index): 0.9638*
 
 **Key Findings:**
@@ -141,7 +141,7 @@ Validation conducted on simulated "Unicorn" (successful) vs. "Graveyard" (abando
 
 ### Negentropic Findings
 1.  **Emergence Detection:** The $\Omega$ score successfully acted as an early-warning indicator for *success*. It detected the establishment of stable information flow (structural maturation) **18 weeks** before the macroscopic lagging indicator (Stars) registered the success.
-2.  **Universal Symmetry:** This validates the hypothesis that "failure and success are opposite directions of structural evolution," establishing SIRIAQ as a universal compass for both degradation and emergence.
+2.  **Universal Symmetry:** This validates the hypothesis that "failure and success are opposite directions of structural evolution," establishing Thought as a universal compass for both degradation and emergence.
 
 ---
 

@@ -1,5 +1,5 @@
 # Data Leakage & Feature Separation Audit
-**Project:** SIRIAQ (Structure-Sensitive Science) / Ω_ONCO & Ω_BIO
+**Project:** Thought (Structure-Sensitive Science) / Ω_ONCO & Ω_BIO
 **Status:** VALIDATED
 
 ## 1. Absolute Leakage Control Protocol

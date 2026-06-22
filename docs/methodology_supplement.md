@@ -1,5 +1,5 @@
 # Methodological Transparency & Reproducibility Protocol
-**Project:** SIRIAQ (Structure-Sensitive Science) / Ω_BIO Clinical Utility
+**Project:** Thought (Structure-Sensitive Science) / Ω_BIO Clinical Utility
 **Target:** Medical Journal Supplementary Material
 
 ## 1. Cohort Definition
@@ -41,9 +41,9 @@
 ## 3. Reproducibility Package
 This formal validation repository contains all artifacts necessary to reproduce the findings:
 1. `cox_model_summary.txt`: Frozen \Omega_BIO model configuration and final parameters.
-2. `siriaq_survival_analysis.py`: Primary Cox Proportional-Hazards training architecture.
-3. `siriaq_external_validation.py`: Generalization protocol for independent AIBL and OASIS-3 testing.
-4. `siriaq_clinical_utility.py`: Final statistical pipeline including NRI, IDI, DCA, and Bootstrap CIs.
+2. `thought_survival_analysis.py`: Primary Cox Proportional-Hazards training architecture.
+3. `thought_external_validation.py`: Generalization protocol for independent AIBL and OASIS-3 testing.
+4. `thought_clinical_utility.py`: Final statistical pipeline including NRI, IDI, DCA, and Bootstrap CIs.
 5. `datasets/`: Contains generated baseline and outcome structures alongside decision curves and Kaplan-Meier separation graphs.
 
 **Core Thesis Summary:**

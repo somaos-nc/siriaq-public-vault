@@ -71,7 +71,7 @@ def get_metrics(model, df, time_thresh=24):
 
 def run_external_validation():
     print("====================================================")
-    print("SIRIAQ ADVANCED VALIDATION: EXTERNAL GENERALIZATION")
+    print("Thought ADVANCED VALIDATION: EXTERNAL GENERALIZATION")
     print("Goal: Validate frozen Ω_BIO on AIBL and OASIS-3 cohorts")
     print("====================================================\n")
     

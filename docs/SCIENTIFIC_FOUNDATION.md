@@ -1,6 +1,6 @@
-# The Scientific Foundation of SIRIAQ
+# The Scientific Foundation of Thought
 
-The SIRIAQ framework (Özbil Score / Fisher-Coherence) represents a synthesis of theoretical physics, information theory, and applied prognostics. The framework was developed by mapping principles of high-energy astrophysics to the structural degradation of complex, real-world systems.
+The Thought framework (Özbil Score / Fisher-Coherence) represents a synthesis of theoretical physics, information theory, and applied prognostics. The framework was developed by mapping principles of high-energy astrophysics to the structural degradation of complex, real-world systems.
 
 This document traces the scientific lineage of the framework across three foundational stages.
 
@@ -21,7 +21,7 @@ The second phase generalized the specific astrophysical problem into a broader p
 
 This law interprets physical "broadening" (or any entropic noise mechanism) not just as a statistical variance, but as a fundamental **loss of geometric edge coherence**. 
 
-**Core Insight:** Information degradation can be viewed universally as a loss of geometric consistency. This abstraction is the genesis of the **Hamiltonian Disruption ($H$)** scalar used in the SIRIAQ framework. By abstracting the "Pair-Production Broadening" into a general noise factor, the framework can be applied to any system where an ideal structural state ($\Psi$) is degraded by physical interaction.
+**Core Insight:** Information degradation can be viewed universally as a loss of geometric consistency. This abstraction is the genesis of the **Hamiltonian Disruption ($H$)** scalar used in the Thought framework. By abstracting the "Pair-Production Broadening" into a general noise factor, the framework can be applied to any system where an ideal structural state ($\Psi$) is degraded by physical interaction.
 
 ## Phase 3: Cross-Domain Structural Degradation (Applied Prognostics)
 **Reference:** *Özbil Score V2.1 — Alzheimer Risk Index (Halil Özbil, 2026)*
@@ -32,7 +32,7 @@ This work introduced the **Özbil Score ($\Omega$)**, transforming the geometric
 
 **Core Insight:** The transition from cosmic rays to human brain tissue proved that the principles of Fisher Information and geometric coherence loss are model-independent. 
 
-## The SIRIAQ Implementation
-Building on this lineage, the **SIRIAQ Framework** (Systemic Information-geometric Risk and Integrity Assessment Quantum-proxy) was engineered by **Noam Cohen**. It serves as the universal computational engine that applies the Özbil Score ($\Omega$) to real-world industrial and biological datasets.
+## The Thought Implementation
+Building on this lineage, the **Thought Framework** (Systemic Information-geometric Risk and Integrity Assessment Quantum-proxy) was engineered by **Noam Cohen**. It serves as the universal computational engine that applies the Özbil Score ($\Omega$) to real-world industrial and biological datasets.
 
-Through the invention of **Domain-Adaptive Structural Normalization (DASN)**, SIRIAQ successfully translates domain-specific noise (e.g., thermodynamic pressure, kinetic vibration, electrochemical resistance, brain atrophy) into the universal Hamiltonian Disruption ($H$) scalar, enabling the **Quad-Domain Proof** of structural early-warning detection.
+Through the invention of **Domain-Adaptive Structural Normalization (DASN)**, Thought successfully translates domain-specific noise (e.g., thermodynamic pressure, kinetic vibration, electrochemical resistance, brain atrophy) into the universal Hamiltonian Disruption ($H$) scalar, enabling the **Quad-Domain Proof** of structural early-warning detection.

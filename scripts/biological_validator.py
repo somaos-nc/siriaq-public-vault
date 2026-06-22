@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 def run_biological_validation():
-    csv_path = "datasets/siriaq_train_ADNI.csv"
+    csv_path = "datasets/thought_train_ADNI.csv"
     if not os.path.exists(csv_path):
         print(f"File not found: {csv_path}")
         return

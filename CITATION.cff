@@ -7,10 +7,10 @@ authors:
   - family-names: "Cohen"
     given-names: "Noam"
     affiliation: "Independent Researcher"
-title: "SIRIAQ Framework: Systemic Information-geometric Risk and Integrity Assessment Quantum-proxy"
+title: "Thought Framework: Systemic Information-geometric Risk and Integrity Assessment Quantum-proxy"
 version: 1.2.0
 date-released: 2026-06-14
-url: "https://github.com/somaos-nc/Siriaq"
+url: "https://github.com/somaos-nc/Thought"
 preferred-citation:
   type: article
   authors:

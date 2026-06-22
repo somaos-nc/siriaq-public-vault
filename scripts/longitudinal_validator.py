@@ -6,7 +6,7 @@ from sklearn.metrics import roc_auc_score, roc_curve
 
 def run_longitudinal_prediction():
     print("====================================================")
-    print("SIRIAQ B2B COMMERCIAL PIPELINE: LONGITUDINAL PREDICTION")
+    print("Thought B2B COMMERCIAL PIPELINE: LONGITUDINAL PREDICTION")
     print("Target: CN \u2192 MCI/AD Converter Analysis (Baseline \u03A9 Only)")
     print("====================================================\n")
 
@@ -126,7 +126,7 @@ def run_longitudinal_prediction():
     plt.scatter(fpr[optimal_idx], tpr[optimal_idx], marker='o', color='gold', s=100, label=f'Optimal \u03A9={optimal_omega:.1f}')
     plt.xlabel('False Positive Rate (1 - Specificity)')
     plt.ylabel('True Positive Rate (Sensitivity)')
-    plt.title('SIRIAQ $\Omega_{BIO}$ Predictive Trajectory Analysis (CN \u2192 MCI/AD)')
+    plt.title('Thought $\Omega_{BIO}$ Predictive Trajectory Analysis (CN \u2192 MCI/AD)')
     plt.legend(loc="lower right")
     plt.savefig('graphics/roc_auc_longitudinal.png', dpi=300)
     plt.close()

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# SIRIAQ Master Validation Script
+# Thought Master Validation Script
 # [👼 Raziel] -- Absolute System Integrity Check
 
 echo "===================================================="
-echo "SIRIAQ MASTER VALIDATION: [👼 RAZIEL]"
+echo "Thought MASTER VALIDATION: [👼 RAZIEL]"
 echo "===================================================="
 
 # 1. JavaScript Engine Validation
@@ -29,7 +29,7 @@ fi
 
 # 3. Final Cross-Domain Battery Validation
 echo -e "\n[3/4] Running Final Cross-Domain Battery Validation..."
-python3 scripts/siriaq_battery_validation.py
+python3 scripts/thought_battery_validation.py
 if [ $? -eq 0 ]; then
     echo "✔ Battery Proof: ANCHORED"
 else
@@ -39,7 +39,7 @@ fi
 
 # 4. Biological Structural Validation
 echo -e "\n[4/5] Running Biological Domain Validation (ADNI Alzheimer's)..."
-python3 scripts/siriaq_adni_validation.py
+python3 scripts/thought_adni_validation.py
 if [ $? -eq 0 ]; then
     echo "✔ Biological Proof: ANCHORED"
 else
@@ -49,7 +49,7 @@ fi
 
 # 5. Negentropic Emergence Validation
 echo -e "\n[5/6] Running Negentropic Emergence Validation (GitHub Proxy)..."
-python3 scripts/siriaq_github_validation.py
+python3 scripts/thought_github_validation.py
 if [ $? -eq 0 ]; then
     echo "✔ Negentropic Symmetry: PROVEN"
 else
@@ -59,7 +59,7 @@ fi
 
 # 6. Probabilistic Clinical Trajectories (B2B)
 echo -e "\n[6/7] Running Probabilistic Clinical Trajectories (B2B Metrics)..."
-python3 scripts/siriaq_longitudinal_prediction.py
+python3 scripts/thought_longitudinal_prediction.py
 if [ $? -eq 0 ]; then
     echo "✔ B2B Trajectory Pipeline: COMMERCIAL READY"
 else
@@ -69,7 +69,7 @@ fi
 
 # 7. Advanced Predictive Validation (Survival Modeling)
 echo -e "\n[7/7] Running Cox Proportional-Hazards Survival Modeling..."
-python3 scripts/siriaq_survival_analysis.py
+python3 scripts/thought_survival_analysis.py
 if [ $? -eq 0 ]; then
     echo "✔ Biomarker Independence: PROVEN"
 else

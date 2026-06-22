@@ -10,7 +10,7 @@ def run_battery_validation():
     print("|---|---|---|---|---|")
 
     for ds in datasets:
-        csv_path = f"datasets/siriaq_train_{ds}.csv"
+        csv_path = f"datasets/thought_train_{ds}.csv"
         if not os.path.exists(csv_path):
             continue
             

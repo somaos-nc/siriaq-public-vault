@@ -38,4 +38,4 @@ Monte Carlo simulations ($N=1,000$) on a synthetic lithium-ion battery degradati
 *   **Earlier Detection Rate:** 99.8%.
 *   **False Alarm Rate:** 2.7%.
 
-This framework integrates directly into the broader SIRIAQ architecture as an advanced, structure-sensitive SHM (Structural Health Monitoring) module.
+This framework integrates directly into the broader Thought architecture as an advanced, structure-sensitive SHM (Structural Health Monitoring) module.

@@ -1,7 +1,7 @@
 # Reproducible Quantitative Observability-Loss Demonstrator
 
 ## Abstract
-This document outlines the numerical and conceptual reproduction of the Fisher-Coherence mapping within the SIRIAQ framework. Conducted independently by Halil Özbil and Noam Cohen, this report validates the internal mathematical consistency of mapping Quantum Fisher Information ($F_Q$) and Classical Fisher Information ($F_C$) to the Hamiltonian Disruption ($H$) and the Özbil Score ($\Omega$).
+This document outlines the numerical and conceptual reproduction of the Fisher-Coherence mapping within the Thought framework. Conducted independently by Halil Özbil and Noam Cohen, this report validates the internal mathematical consistency of mapping Quantum Fisher Information ($F_Q$) and Classical Fisher Information ($F_C$) to the Hamiltonian Disruption ($H$) and the Özbil Score ($\Omega$).
 
 **Disclaimer:** This document represents a reproducible *computational* observability-loss demonstrator, not yet a physical validation of nature itself. It serves as a foundational step toward correlating information geometry with physical limits.
 
@@ -28,7 +28,7 @@ The numerical convergence test was run with the following fixed parameters to is
 *   **$\Phi$ (Phase Resonance):** `1.62`
 *   **$\lambda$ (Observability Coupling Constant):** `2.0`
 
-## 3. Numerical Matrix (SIRIAQ Engine Output)
+## 3. Numerical Matrix (Thought Engine Output)
 The computational engine produced the following step-function decay as Hamiltonian Disruption ($H$) was scaled from 0.0 to 1.0:
 
 | H (Noise) | $F_Q$ (Max) | $F_C$ (Extract) | $\Delta F$ (Gap) | CRLB | Coherence (%) | $\Omega$ (Özbil) |
@@ -60,13 +60,13 @@ While the mathematical formulation is internally consistent and reproducible, se
 3.  **Classical Assumption:** The model primarily simulates the *degradation* of the quantum signal into a classical channel. It does not account for exotic quantum entanglement effects that might bypass local $H$-noise.
 
 ## Conclusion
-The SIRIAQ engine has been successfully validated as a computationally consistent demonstrator of the Information Geometry and Fisher-Coherence mapping. The next stage of research will focus on calibrating the variables against specific, real-world analytical sensitivities (e.g., Cherenkov detector hardware limits).
+The Thought engine has been successfully validated as a computationally consistent demonstrator of the Information Geometry and Fisher-Coherence mapping. The next stage of research will focus on calibrating the variables against specific, real-world analytical sensitivities (e.g., Cherenkov detector hardware limits).
 
 ## 6. External Validation (NASA C-MAPSS)
 Following internal mathematical validation, the framework underwent external validation against real-world multivariate sensor data using the **NASA C-MAPSS FD001** turbofan degradation dataset.
 
-*   A dedicated preprocessing script (`scripts/siriaq_cmapss_processor.py`) maps 21 mechanical sensor readings into the single Hamiltonian Disruption scalar ($H(t)$) via a composite function of sensor drift, variance growth, and entropy change.
-*   Ingestion of the processed `train_FD001` data into the SIRIAQ visualization layer demonstrates that the Özbil Score ($\Omega$) provides a smooth, consistent downward trajectory, offering a clear early-warning visual of the expanding Cramér-Rao bound significantly before terminal failure variance conventionally spikes.
+*   A dedicated preprocessing script (`scripts/thought_cmapss_processor.py`) maps 21 mechanical sensor readings into the single Hamiltonian Disruption scalar ($H(t)$) via a composite function of sensor drift, variance growth, and entropy change.
+*   Ingestion of the processed `train_FD001` data into the Thought visualization layer demonstrates that the Özbil Score ($\Omega$) provides a smooth, consistent downward trajectory, offering a clear early-warning visual of the expanding Cramér-Rao bound significantly before terminal failure variance conventionally spikes.
 *   This confirms the transition of the framework from a purely computational demonstrator into an externally validated predictive model.
 
 ## 7. Full System Verification (Master Validation)
@@ -100,7 +100,7 @@ node test.js
 python3 tests/test_processors.py
 
 # 3. Triple-Domain Lead-Time Validation (Battery Benchmark)
-python3 scripts/siriaq_battery_validation.py
+python3 scripts/thought_battery_validation.py
 
 # 4. Multi-Omics Biological Proof (\Omega_ONCO)
 python3 scripts/tcga_gdc_ingestion.py

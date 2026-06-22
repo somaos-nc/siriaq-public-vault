@@ -1,6 +1,6 @@
 # Contributors & Acknowledgments
 
-The SIRIAQ (Özbil Score / Fisher-Coherence) framework is the result of a cross-disciplinary collaboration between theoretical physics and software engineering.
+The Thought (Özbil Score / Fisher-Coherence) framework is the result of a cross-disciplinary collaboration between theoretical physics and software engineering.
 
 ## Principal Architects
 
@@ -13,7 +13,7 @@ The SIRIAQ (Özbil Score / Fisher-Coherence) framework is the result of a cross-
 
 ### Noam Cohen
 **Principal Software Architect & Lead Engineer**
-- Engineered the SIRIAQ multi-domain implementation and the HarpiaOS / Quantum Core Zero environment.
+- Engineered the Thought multi-domain implementation and the HarpiaOS / Quantum Core Zero environment.
 - Invented the **Domain-Adaptive Structural Normalization (DASN)** protocol, allowing the theoretical math to interface with real-world, noisy sensor data across varied physical domains.
 - Developed the data processing pipelines, 3D WebGL visualization engine, and the comprehensive test suites for C-MAPSS, IMS Bearing, NASA Battery, and ADNI validation.
 - Executed the empirical data-science modeling that established the Quad-Domain lead-time advantages.

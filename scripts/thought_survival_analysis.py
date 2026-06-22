@@ -9,7 +9,7 @@ from lifelines.statistics import proportional_hazard_test
 
 def run_survival_analysis():
     print("====================================================")
-    print("SIRIAQ ADVANCED PREDICTIVE VALIDATION: SURVIVAL ANALYSIS")
+    print("Thought ADVANCED PREDICTIVE VALIDATION: SURVIVAL ANALYSIS")
     print("Goal: Prove independent predictive value of \u03A9_BIO")
     print("====================================================\n")
 
@@ -152,7 +152,7 @@ def run_survival_analysis():
     cph2.fit(df_combined, duration_col='Duration', event_col='Event')
     c2_index = cph2.concordance_index_
     
-    print("\n   [Model B] Combined SIRIAQ Model (Clinical + \u03A9_BIO):")
+    print("\n   [Model B] Combined Thought Model (Clinical + \u03A9_BIO):")
     print(f"      Concordance Index (C-index): {c2_index:.4f}")
     
     print("\n3. INDEPENDENT PREDICTIVE VALUE (Biomarker Independence)")

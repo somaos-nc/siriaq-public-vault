@@ -67,7 +67,7 @@ All data utilized in this study are publicly available to ensure complete transp
 - **Neurology Cohorts:** The Alzheimer's Disease Neuroimaging Initiative (ADNI) data, Australian Imaging, Biomarker & Lifestyle Flagship Study of Ageing (AIBL), and OASIS-3 datasets are available to qualified researchers via the LONI Image & Data Archive (IDA).
 
 ## 6. Reproducibility
-To ensure independent verification, the SIRIAQ framework provides a complete reproducibility package encompassing:
+To ensure independent verification, the Thought framework provides a complete reproducibility package encompassing:
 - **Frozen Parameters:** All $\Omega$ weights and baseline hazard tensors are frozen and publicly documented.
 - **Preprocessing Scripts:** End-to-end ingestion pipelines (e.g., `tcga_gdc_ingestion.py`) for transparent feature generation.
 - **Validation Pipeline:** The `icgc_external_validation.py` script allowing 1-click external C-index generation via Bootstrap resampling.

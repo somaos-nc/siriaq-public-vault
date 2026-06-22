@@ -7,7 +7,7 @@ def run_all():
     results = []
 
     for ds in datasets:
-        csv_path = os.path.join(os.path.dirname(__file__), f"../datasets/siriaq_train_{ds}.csv")
+        csv_path = os.path.join(os.path.dirname(__file__), f"../datasets/thought_train_{ds}.csv")
         if not os.path.exists(csv_path):
             continue
             

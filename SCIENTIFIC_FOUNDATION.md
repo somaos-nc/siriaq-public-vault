@@ -1,8 +1,8 @@
 SCIENTIFIC_FOUNDATION.md
-# Scientific Foundation of SIRIAQ
+# Scientific Foundation of Thought
 ## Özbil Score / Ω-Fisher-Coherence Framework
 
-This document records the scientific lineage and original theoretical contributions behind the SIRIAQ structural early-warning framework.
+This document records the scientific lineage and original theoretical contributions behind the Thought structural early-warning framework.
 
 The purpose is to preserve a transparent academic record of foundational works, validation layers, and future extensions.
 
@@ -85,7 +85,7 @@ Law of Geometric Consistency (LGC)
 ↓  
 Ω / Structure-Sensitive Mathematics  
 ↓  
-SIRIAQ Fisher-Coherence Validation  
+Thought Fisher-Coherence Validation  
 ↓  
 Cross-Domain Structural Intelligence
 

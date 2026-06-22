@@ -23,7 +23,7 @@
   <rect width="1200" height="630" fill="url(#glow)" />
 
   <!-- Header -->
-  <text x="60" y="80" font-family="Inter, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="2">SIRIAQ // TRIPLE-DOMAIN PROOF</text>
+  <text x="60" y="80" font-family="Inter, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="2">Thought // TRIPLE-DOMAIN PROOF</text>
   <line x1="60" y1="100" x2="1140" y2="100" stroke="#1f2937" stroke-width="2" />
   <text x="60" y="130" font-family="Fira Code, monospace" font-size="18" fill="#9ca3af">[👼 RAZIEL] Quantum Core Zero Validation Matrix</text>
 

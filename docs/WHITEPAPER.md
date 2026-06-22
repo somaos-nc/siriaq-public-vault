@@ -1,7 +1,7 @@
 # Geometric Entropy of Information: The Architecture of Structural Degradation
 
 **Authors:** Noam Cohen, Halil Özbil  
-**Framework:** SIRIAQ (Emergent Coherence Field)  
+**Framework:** Thought (Emergent Coherence Field)  
 
 ## Abstract
 Modern structural health monitoring relies predominantly on measuring classical thermodynamic entropy or macroscopic mechanical variance. However, before physical failure manifests, a system undergoes a fundamental decay in its underlying information structure. This paper introduces the concept of **Geometric Entropy of Information**, a model-independent candidate framework that quantifies the geometric stretching and tearing of the probability wave connecting a physical system's latent ideal state to the observer. By mapping the Emergent Coherence Field ($\Phi$-$\Psi$-$H$) to Fisher Information Geometry, we demonstrate that the Özbil Score ($\Omega$) successfully tracks this geometric entropy, providing a measurable early-warning capability validated across aerospace degradation datasets, neurodegenerative disease trajectories, and multi-omics oncological arrays.
@@ -61,6 +61,6 @@ The theory of Geometric Entropy of Information was subjected to rigorous cross-d
 5.  **Oncological ($\Omega_{ONCO}$):** Tested on TCGA-BRCA and blindly evaluated on ICGC-BRCA multi-omics arrays. The frozen model achieved an independent Bootstrap C-index of **0.9493** with absolute Permutation Falsification control, mathematically proving that structural transition mechanics govern oncogenesis.
 
 ## 8. Conclusion
-The SIRIAQ framework demonstrates that structural degradation is fundamentally a geometric observability-loss event ($\Delta F$) that precedes macroscopic physical failure. By utilizing Domain-Adaptive Structural Normalization (DASN), the Özbil Score ($\Omega$) acts as a universal transition detection engine across thermodynamic, kinetic, electrochemical, neurological, and oncological regimes. 
+The Thought framework demonstrates that structural degradation is fundamentally a geometric observability-loss event ($\Delta F$) that precedes macroscopic physical failure. By utilizing Domain-Adaptive Structural Normalization (DASN), the Özbil Score ($\Omega$) acts as a universal transition detection engine across thermodynamic, kinetic, electrochemical, neurological, and oncological regimes. 
 
 This universal five-domain validation proves that information geometry is a robust, model-independent candidate for transition detection, providing actionable intelligence for complex systems ranging from aerospace turbines to human biological networks.
